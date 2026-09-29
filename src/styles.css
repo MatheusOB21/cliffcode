@@ -312,6 +312,8 @@ p {
 .story-progress {
   display: flex;
   gap: 6px;
+  align-items: center;
+  align-content: center;
 }
 .story-progress span {
   width: 32px;

@@ -331,19 +331,6 @@ function ScrollExperience() {
             <DeviceScene progress={progress} />
           </Suspense>
         </div>
-        <div className="story-footer">
-          <span className="scroll-cue">
-            <ArrowDown size={16} /> Continue rolando. Explore por dentro.
-          </span>
-          <div className="story-progress" aria-hidden="true">
-            {stages.map((_, index) => (
-              <span key={index} className={index <= stage ? "active" : ""} />
-            ))}
-          </div>
-          <a href="#projetos">
-            Ir para os templates <ArrowUpRight size={16} />
-          </a>
-        </div>
       </div>
     </section>
   );
@@ -434,30 +421,9 @@ export default function App() {
               Explorar templates <ArrowDown size={16} />
             </a>
           </div>
-          <div className="hero-caption">
-            <span>CLIFFCODE / ESTÚDIO DIGITAL</span>
-            <span>DA PRIMEIRA LINHA AO ÚLTIMO DETALHE</span>
-          </div>
         </section>
         <ScrollExperience />
         </div>
-        <aside className="contact-ribbon">
-          <div>
-            <span className="eyebrow">
-              SEU PRÓXIMO PASSO COMEÇA COM UMA CONVERSA
-            </span>
-            <p>Uma ideia em mente? Vamos construir juntos.</p>
-          </div>
-          <a
-            className="button silver-button"
-            href={whatsappUrl}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <MessageCircle size={19} /> Falar no WhatsApp{" "}
-            <ArrowUpRight size={18} />
-          </a>
-        </aside>
         <section id="experiencia" className="experience section-shell">
           <div className="section-top">
             <p className="eyebrow">01 / ALÉM DA TELA</p>
