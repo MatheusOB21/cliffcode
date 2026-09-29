@@ -113,14 +113,7 @@ p {
   width: 220px;
   height: 48px;
 }
-.brand-crop img {
-  position: absolute;
-  max-width: none;
-  width: 316px;
-  height: 316px;
-  top: -122px;
-  left: -46px;
-}
+
 .nav {
   display: flex;
   gap: 30px;

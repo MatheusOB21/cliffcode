@@ -387,7 +387,7 @@ export default function App() {
             A experiência
           </a>
           <a href="#projetos" onClick={() => setMenuOpen(false)}>
-            Templates <span>03</span>
+            Templates
           </a>
           <a href="#orcamento" onClick={() => setMenuOpen(false)}>
             Contato
@@ -541,7 +541,7 @@ export default function App() {
                   aria-pressed={filter === item}
                 >
                   {item}
-                  {item === "Todos" && <span>03</span>}
+                  {item === "Todos"}
                 </button>
               ))}
             </div>
